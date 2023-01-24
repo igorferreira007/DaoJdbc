@@ -23,6 +23,12 @@ public class Program {
 		for (Vendedor vendedor2 : listaVendedores) {
 			System.out.println(vendedor2);
 		}
+		
+		System.out.println("\n=== Teste 3: vendedor procurarTodos ===");
+		listaVendedores = vendedorDao.procurarTodos();
+		for (Vendedor vendedor2 : listaVendedores) {
+			System.out.println(vendedor2);
+		}
 	}
 
 }
