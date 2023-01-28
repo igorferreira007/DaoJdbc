@@ -6,8 +6,8 @@ import model.entities.Departamento;
 
 public interface DepartamentoDao {
 
-	void inserir(DepartamentoDao departamento);
-	void atualizar(DepartamentoDao departamento);
+	void inserir(Departamento departamento);
+	void atualizar(Departamento departamento);
 	void excluir(int id);
 	Departamento procurarPorId(int id);
 	List<Departamento> procurarTodos();

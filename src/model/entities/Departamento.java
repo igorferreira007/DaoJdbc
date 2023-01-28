@@ -7,22 +7,22 @@ public class Departamento implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private int id;
+	private Integer id;
 	private String name;
 	
 	public Departamento() {
 	}
 
-	public Departamento(int id, String name) {
+	public Departamento(Integer id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
